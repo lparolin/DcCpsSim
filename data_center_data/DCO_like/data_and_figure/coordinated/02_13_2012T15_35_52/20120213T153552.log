@@ -1,0 +1,1388 @@
+15:35:52 Log Manager Initialized. === initializelogmanager:28
+15:35:52 Fixed indexes for environmet nodes === loadandpreparedatacenterdata:63
+15:35:58 COORDINATED controller successfully installed === startup_coordinated_controller:31
+15:35:58 Parameters.Controller.considerCostOfElectricity not defined. Set it to false. === initializecoordinatedcontroller:52
+15:35:58 Cost of electricity will be neglected === initializecoordinatedcontroller:53
+15:35:58 Defining coordinated controller optimization problem. === initializecoordinatedcontroller:193
+15:36:11 Generating coordinated controller optimization problem... === initializecoordinatedcontroller:396
+15:36:40 Coordinated controller optimization generated in 29.09s. === initializecoordinatedcontroller:403
+15:36:41 Synthesize new control input. Iteration: 1 of 3001 === main:88
+
+======================================
+          Commercial License
+             KNITRO 7.0.0
+       Ziena Optimization, Inc.
+======================================
+
+algorithm:            1
+bar_initpt:           1
+bar_murule:           6
+maxcrossit:           5
+maxit:                10000
+maxtime_cpu:          45
+maxtime_real:         40
+ms_enable:            1
+ms_maxsolves:         40
+ms_maxtime_cpu:       100
+ms_maxtime_real:      80
+newpoint:             3
+objrange:             1e+06
+outlev:               1
+KNITRO changing bar_penaltyrule from AUTO to 2.
+KNITRO changing bar_penaltycons from AUTO to 1.
+KNITRO changing linsolver from AUTO to 5.
+KNITRO shifted start point to honor bounds (448 variables).
+
+Problem Characteristics
+-----------------------
+Objective goal:  Minimize
+Number of variables:                   480
+    bounded below:                       0
+    bounded above:                       0
+    bounded below and above:           448
+    fixed:                              32
+    free:                                0
+Number of constraints:                 528
+    linear equalities:                 128
+    nonlinear equalities:                0
+    linear inequalities:               400
+    nonlinear inequalities:              0
+    range:                               0
+Number of nonzeros in Jacobian:       3016
+Number of nonzeros in Hessian:        2440
+
+MULTISTART: Best locally optimal point is returned.
+EXIT: Locally optimal solution found.
+
+Final Statistics
+----------------
+Final objective value               =  -5.44322914735320e+02
+Final feasibility error (abs / rel) =   2.65e-12 / 3.11e-15
+Final optimality error  (abs / rel) =   1.35e-06 / 3.33e-07
+# of iterations                     =       4563 
+# of CG iterations                  =      22561 
+# of function evaluations           =       5053
+# of gradient evaluations           =       4603
+# of Hessian evaluations            =       4748
+Total program time (secs)           =      73.59518 (    73.480 CPU time)
+Time spent in evaluations (secs)    =      41.96909
+
+===============================================================================
+
+===== * * * =================================================================== * * *
+TOMLAB - Carnegie Mellon University Ac. department  701036. Valid to 2100-01-01
+=====================================================================================
+Problem: ---  1: Data center level coordinated optimization problem.  f_k    -544.322914735319614010
+                                                             sum(|constr|)      0.000000000015861301
+                                                    f(x_k) + sum(|constr|)   -544.322914735303697853
+                                                                    f(x_0)      0.865334279911483817
+ ==>  Number of variables violating lower bound   2.  Number of variables violating upper bound   6
+
+Solver: KNITRO.  EXIT=0.  INFORM=0.
+Interior/Direct NLP KNITRO
+Locally optimal solution found
+
+FuncEv 5054 GradEv 4603 HessEv 4749 Iter 4563 MinorIter 4756
+CPU time: 73.820000 sec. Elapsed time: 73.953199 sec. 
+-- Solving time: 74.1973
+-- Computation time: 73.9532s
+15:38:00 Update simulation: 3.7582 === main:86
+15:38:00 Synthesize new control input. Iteration: 181 of 3001 === main:88
+
+======================================
+          Commercial License
+             KNITRO 7.0.0
+       Ziena Optimization, Inc.
+======================================
+
+algorithm:            1
+bar_initpt:           1
+bar_murule:           6
+maxcrossit:           5
+maxit:                10000
+maxtime_cpu:          45
+maxtime_real:         40
+ms_enable:            1
+ms_maxsolves:         40
+ms_maxtime_cpu:       100
+ms_maxtime_real:      80
+newpoint:             3
+objrange:             1e+06
+outlev:               1
+KNITRO changing bar_penaltyrule from AUTO to 2.
+KNITRO changing bar_penaltycons from AUTO to 1.
+KNITRO changing linsolver from AUTO to 5.
+KNITRO shifted start point to honor bounds (72 variables).
+
+Problem Characteristics
+-----------------------
+Objective goal:  Minimize
+Number of variables:                   480
+    bounded below:                       0
+    bounded above:                       0
+    bounded below and above:           448
+    fixed:                              32
+    free:                                0
+Number of constraints:                 528
+    linear equalities:                 128
+    nonlinear equalities:                0
+    linear inequalities:               400
+    nonlinear inequalities:              0
+    range:                               0
+Number of nonzeros in Jacobian:       3016
+Number of nonzeros in Hessian:        2440
+
+MULTISTART: Best locally optimal point is returned.
+EXIT: Locally optimal solution found.
+
+Final Statistics
+----------------
+Final objective value               =  -5.43902340121281e+02
+Final feasibility error (abs / rel) =   7.61e-13 / 1.02e-15
+Final optimality error  (abs / rel) =   2.02e-08 / 5.05e-09
+# of iterations                     =       4583 
+# of CG iterations                  =      23695 
+# of function evaluations           =       5109
+# of gradient evaluations           =       4622
+# of Hessian evaluations            =       4796
+Total program time (secs)           =      69.30956 (    69.120 CPU time)
+Time spent in evaluations (secs)    =      38.75650
+
+===============================================================================
+
+===== * * * =================================================================== * * *
+TOMLAB - Carnegie Mellon University Ac. department  701036. Valid to 2100-01-01
+=====================================================================================
+Problem: ---  1: Data center level coordinated optimization problem.  f_k    -543.902340121280758467
+                                                             sum(|constr|)      0.000000000005022411
+                                                    f(x_k) + sum(|constr|)   -543.902340121275756246
+                                                                    f(x_0)   -534.206935615082898039
+ ==>  Number of variables violating lower bound   6.  Number of variables violating upper bound   0
+
+Solver: KNITRO.  EXIT=0.  INFORM=0.
+Interior/Direct NLP KNITRO
+Locally optimal solution found
+
+FuncEv 5110 GradEv 4622 HessEv 4797 Iter 4583 MinorIter 4802
+CPU time: 69.180000 sec. Elapsed time: 69.416371 sec. 
+-- Solving time: 69.4316
+-- Computation time: 69.4164s
+15:39:14 Update simulation: 2.7 === main:86
+15:39:14 Synthesize new control input. Iteration: 361 of 3001 === main:88
+
+======================================
+          Commercial License
+             KNITRO 7.0.0
+       Ziena Optimization, Inc.
+======================================
+
+algorithm:            1
+bar_initpt:           1
+bar_murule:           6
+maxcrossit:           5
+maxit:                10000
+maxtime_cpu:          45
+maxtime_real:         40
+ms_enable:            1
+ms_maxsolves:         40
+ms_maxtime_cpu:       100
+ms_maxtime_real:      80
+newpoint:             3
+objrange:             1e+06
+outlev:               1
+KNITRO changing bar_penaltyrule from AUTO to 2.
+KNITRO changing bar_penaltycons from AUTO to 1.
+KNITRO changing linsolver from AUTO to 5.
+KNITRO shifted start point to honor bounds (72 variables).
+
+Problem Characteristics
+-----------------------
+Objective goal:  Minimize
+Number of variables:                   480
+    bounded below:                       0
+    bounded above:                       0
+    bounded below and above:           448
+    fixed:                              32
+    free:                                0
+Number of constraints:                 528
+    linear equalities:                 128
+    nonlinear equalities:                0
+    linear inequalities:               400
+    nonlinear inequalities:              0
+    range:                               0
+Number of nonzeros in Jacobian:       3016
+Number of nonzeros in Hessian:        2440
+
+MULTISTART: Best locally optimal point is returned.
+EXIT: Locally optimal solution found.
+
+Final Statistics
+----------------
+Final objective value               =  -5.43841024871413e+02
+Final feasibility error (abs / rel) =   6.91e-12 / 8.09e-15
+Final optimality error  (abs / rel) =   1.19e-06 / 2.91e-07
+# of iterations                     =       4509 
+# of CG iterations                  =      23942 
+# of function evaluations           =       5104
+# of gradient evaluations           =       4549
+# of Hessian evaluations            =       4654
+Total program time (secs)           =      68.81247 (    68.720 CPU time)
+Time spent in evaluations (secs)    =      38.29978
+
+===============================================================================
+
+===== * * * =================================================================== * * *
+TOMLAB - Carnegie Mellon University Ac. department  701036. Valid to 2100-01-01
+=====================================================================================
+Problem: ---  1: Data center level coordinated optimization problem.  f_k    -543.841024871413424080
+                                                             sum(|constr|)      0.000000000031010220
+                                                    f(x_k) + sum(|constr|)   -543.841024871382387573
+                                                                    f(x_0)   -528.647737448683415096
+ ==>  Number of variables violating lower bound   5.  Number of variables violating upper bound   3
+
+Solver: KNITRO.  EXIT=0.  INFORM=0.
+Interior/Direct NLP KNITRO
+Locally optimal solution found
+
+FuncEv 5105 GradEv 4549 HessEv 4655 Iter 4509 MinorIter 4673
+CPU time: 68.750000 sec. Elapsed time: 68.902995 sec. 
+-- Solving time: 68.9083
+-- Computation time: 68.903s
+15:40:27 Update simulation: 2.6412 === main:86
+15:40:27 Synthesize new control input. Iteration: 541 of 3001 === main:88
+
+======================================
+          Commercial License
+             KNITRO 7.0.0
+       Ziena Optimization, Inc.
+======================================
+
+algorithm:            1
+bar_initpt:           1
+bar_murule:           6
+maxcrossit:           5
+maxit:                10000
+maxtime_cpu:          45
+maxtime_real:         40
+ms_enable:            1
+ms_maxsolves:         40
+ms_maxtime_cpu:       100
+ms_maxtime_real:      80
+newpoint:             3
+objrange:             1e+06
+outlev:               1
+KNITRO changing bar_penaltyrule from AUTO to 2.
+KNITRO changing bar_penaltycons from AUTO to 1.
+KNITRO changing linsolver from AUTO to 5.
+KNITRO shifted start point to honor bounds (72 variables).
+
+Problem Characteristics
+-----------------------
+Objective goal:  Minimize
+Number of variables:                   480
+    bounded below:                       0
+    bounded above:                       0
+    bounded below and above:           448
+    fixed:                              32
+    free:                                0
+Number of constraints:                 528
+    linear equalities:                 128
+    nonlinear equalities:                0
+    linear inequalities:               400
+    nonlinear inequalities:              0
+    range:                               0
+Number of nonzeros in Jacobian:       3016
+Number of nonzeros in Hessian:        2440
+
+MULTISTART: Best locally optimal point is returned.
+EXIT: Locally optimal solution found.
+
+Final Statistics
+----------------
+Final objective value               =  -5.43845996587604e+02
+Final feasibility error (abs / rel) =   9.73e-11 / 1.31e-13
+Final optimality error  (abs / rel) =   1.62e-06 / 4.05e-07
+# of iterations                     =       4473 
+# of CG iterations                  =      21176 
+# of function evaluations           =       5035
+# of gradient evaluations           =       4513
+# of Hessian evaluations            =       4568
+Total program time (secs)           =      67.41439 (    67.340 CPU time)
+Time spent in evaluations (secs)    =      37.90324
+
+===============================================================================
+
+===== * * * =================================================================== * * *
+TOMLAB - Carnegie Mellon University Ac. department  701036. Valid to 2100-01-01
+=====================================================================================
+Problem: ---  1: Data center level coordinated optimization problem.  f_k    -543.845996587604417982
+                                                             sum(|constr|)      0.000000000375635137
+                                                    f(x_k) + sum(|constr|)   -543.845996587228796670
+                                                                    f(x_0)   -527.954624130975389562
+ ==>  Number of variables violating lower bound  11.  Number of variables violating upper bound   2
+
+Solver: KNITRO.  EXIT=0.  INFORM=0.
+Interior/Direct NLP KNITRO
+Locally optimal solution found
+
+FuncEv 5036 GradEv 4513 HessEv 4569 Iter 4473 MinorIter 4579
+CPU time: 67.380000 sec. Elapsed time: 67.510065 sec. 
+-- Solving time: 67.5156
+-- Computation time: 67.5101s
+15:41:39 Update simulation: 2.8482 === main:86
+15:41:39 Synthesize new control input. Iteration: 721 of 3001 === main:88
+
+======================================
+          Commercial License
+             KNITRO 7.0.0
+       Ziena Optimization, Inc.
+======================================
+
+algorithm:            1
+bar_initpt:           1
+bar_murule:           6
+maxcrossit:           5
+maxit:                10000
+maxtime_cpu:          45
+maxtime_real:         40
+ms_enable:            1
+ms_maxsolves:         40
+ms_maxtime_cpu:       100
+ms_maxtime_real:      80
+newpoint:             3
+objrange:             1e+06
+outlev:               1
+KNITRO changing bar_penaltyrule from AUTO to 2.
+KNITRO changing bar_penaltycons from AUTO to 1.
+KNITRO changing linsolver from AUTO to 5.
+KNITRO shifted start point to honor bounds (72 variables).
+
+Problem Characteristics
+-----------------------
+Objective goal:  Minimize
+Number of variables:                   480
+    bounded below:                       0
+    bounded above:                       0
+    bounded below and above:           448
+    fixed:                              32
+    free:                                0
+Number of constraints:                 528
+    linear equalities:                 128
+    nonlinear equalities:                0
+    linear inequalities:               400
+    nonlinear inequalities:              0
+    range:                               0
+Number of nonzeros in Jacobian:       3016
+Number of nonzeros in Hessian:        2440
+
+MULTISTART: Best locally optimal point is returned.
+EXIT: Locally optimal solution found.
+
+Final Statistics
+----------------
+Final objective value               =  -5.43786866633266e+02
+Final feasibility error (abs / rel) =   5.46e-12 / 6.88e-15
+Final optimality error  (abs / rel) =   4.65e-08 / 1.15e-08
+# of iterations                     =       4458 
+# of CG iterations                  =      19270 
+# of function evaluations           =       4921
+# of gradient evaluations           =       4498
+# of Hessian evaluations            =       4575
+Total program time (secs)           =      66.76534 (    66.690 CPU time)
+Time spent in evaluations (secs)    =      37.77396
+
+===============================================================================
+
+===== * * * =================================================================== * * *
+TOMLAB - Carnegie Mellon University Ac. department  701036. Valid to 2100-01-01
+=====================================================================================
+Problem: ---  1: Data center level coordinated optimization problem.  f_k    -543.786866633265617565
+                                                             sum(|constr|)      0.000000000017324200
+                                                    f(x_k) + sum(|constr|)   -543.786866633248337166
+                                                                    f(x_0)   -527.642560434579877437
+ ==>  Number of variables violating lower bound   3.  Number of variables violating upper bound   0
+
+Solver: KNITRO.  EXIT=0.  INFORM=0.
+Interior/Direct NLP KNITRO
+Locally optimal solution found
+
+FuncEv 4922 GradEv 4498 HessEv 4576 Iter 4458 MinorIter 4583
+CPU time: 66.750000 sec. Elapsed time: 66.863452 sec. 
+-- Solving time: 66.8689
+-- Computation time: 66.8635s
+15:42:50 Update simulation: 2.7745 === main:86
+15:42:50 Synthesize new control input. Iteration: 901 of 3001 === main:88
+
+======================================
+          Commercial License
+             KNITRO 7.0.0
+       Ziena Optimization, Inc.
+======================================
+
+algorithm:            1
+bar_initpt:           1
+bar_murule:           6
+maxcrossit:           5
+maxit:                10000
+maxtime_cpu:          45
+maxtime_real:         40
+ms_enable:            1
+ms_maxsolves:         40
+ms_maxtime_cpu:       100
+ms_maxtime_real:      80
+newpoint:             3
+objrange:             1e+06
+outlev:               1
+KNITRO changing bar_penaltyrule from AUTO to 2.
+KNITRO changing bar_penaltycons from AUTO to 1.
+KNITRO changing linsolver from AUTO to 5.
+KNITRO shifted start point to honor bounds (76 variables).
+
+Problem Characteristics
+-----------------------
+Objective goal:  Minimize
+Number of variables:                   480
+    bounded below:                       0
+    bounded above:                       0
+    bounded below and above:           448
+    fixed:                              32
+    free:                                0
+Number of constraints:                 528
+    linear equalities:                 128
+    nonlinear equalities:                0
+    linear inequalities:               400
+    nonlinear inequalities:              0
+    range:                               0
+Number of nonzeros in Jacobian:       3016
+Number of nonzeros in Hessian:        2440
+
+MULTISTART: Best locally optimal point is returned.
+EXIT: Locally optimal solution found.
+
+Final Statistics
+----------------
+Final objective value               =  -5.43829297101716e+02
+Final feasibility error (abs / rel) =   4.12e-12 / 5.27e-15
+Final optimality error  (abs / rel) =   2.68e-08 / 6.46e-09
+# of iterations                     =       4418 
+# of CG iterations                  =      20973 
+# of function evaluations           =       5063
+# of gradient evaluations           =       4458
+# of Hessian evaluations            =       4623
+Total program time (secs)           =      68.32780 (    68.330 CPU time)
+Time spent in evaluations (secs)    =      38.49861
+
+===============================================================================
+
+===== * * * =================================================================== * * *
+TOMLAB - Carnegie Mellon University Ac. department  701036. Valid to 2100-01-01
+=====================================================================================
+Problem: ---  1: Data center level coordinated optimization problem.  f_k    -543.829297101716178986
+                                                             sum(|constr|)      0.000000000014838237
+                                                    f(x_k) + sum(|constr|)   -543.829297101701286010
+                                                                    f(x_0)   -527.905348554354645785
+ ==>  Number of variables violating lower bound   5.  Number of variables violating upper bound   0
+
+Solver: KNITRO.  EXIT=0.  INFORM=0.
+Interior/Direct NLP KNITRO
+Locally optimal solution found
+
+FuncEv 5064 GradEv 4458 HessEv 4624 Iter 4418 MinorIter 4632
+CPU time: 68.380000 sec. Elapsed time: 68.424186 sec. 
+-- Solving time: 68.4296
+-- Computation time: 68.4242s
+15:44:03 Update simulation: 2.7058 === main:86
+15:44:03 Synthesize new control input. Iteration: 1081 of 3001 === main:88
+
+======================================
+          Commercial License
+             KNITRO 7.0.0
+       Ziena Optimization, Inc.
+======================================
+
+algorithm:            1
+bar_initpt:           1
+bar_murule:           6
+maxcrossit:           5
+maxit:                10000
+maxtime_cpu:          45
+maxtime_real:         40
+ms_enable:            1
+ms_maxsolves:         40
+ms_maxtime_cpu:       100
+ms_maxtime_real:      80
+newpoint:             3
+objrange:             1e+06
+outlev:               1
+KNITRO changing bar_penaltyrule from AUTO to 2.
+KNITRO changing bar_penaltycons from AUTO to 1.
+KNITRO changing linsolver from AUTO to 5.
+KNITRO shifted start point to honor bounds (84 variables).
+
+Problem Characteristics
+-----------------------
+Objective goal:  Minimize
+Number of variables:                   480
+    bounded below:                       0
+    bounded above:                       0
+    bounded below and above:           448
+    fixed:                              32
+    free:                                0
+Number of constraints:                 528
+    linear equalities:                 128
+    nonlinear equalities:                0
+    linear inequalities:               400
+    nonlinear inequalities:              0
+    range:                               0
+Number of nonzeros in Jacobian:       3016
+Number of nonzeros in Hessian:        2440
+
+MULTISTART: Best locally optimal point is returned.
+EXIT: Locally optimal solution found.
+
+Final Statistics
+----------------
+Final objective value               =  -5.43880109758130e+02
+Final feasibility error (abs / rel) =   1.71e-12 / 2.11e-15
+Final optimality error  (abs / rel) =   1.27e-08 / 3.10e-09
+# of iterations                     =       4388 
+# of CG iterations                  =      18359 
+# of function evaluations           =       4945
+# of gradient evaluations           =       4428
+# of Hessian evaluations            =       4542
+Total program time (secs)           =      67.34927 (    67.260 CPU time)
+Time spent in evaluations (secs)    =      38.26810
+
+===============================================================================
+
+===== * * * =================================================================== * * *
+TOMLAB - Carnegie Mellon University Ac. department  701036. Valid to 2100-01-01
+=====================================================================================
+Problem: ---  1: Data center level coordinated optimization problem.  f_k    -543.880109758130174669
+                                                             sum(|constr|)      0.000000000005966739
+                                                    f(x_k) + sum(|constr|)   -543.880109758124262953
+                                                                    f(x_0)   -527.925183778671339496
+ ==>  Number of variables violating lower bound   2.  Number of variables violating upper bound   0
+
+Solver: KNITRO.  EXIT=0.  INFORM=0.
+Interior/Direct NLP KNITRO
+Locally optimal solution found
+
+FuncEv 4946 GradEv 4428 HessEv 4543 Iter 4388 MinorIter 4549
+CPU time: 67.310000 sec. Elapsed time: 67.437723 sec. 
+-- Solving time: 67.4432
+-- Computation time: 67.4377s
+15:45:15 Update simulation: 2.8928 === main:86
+15:45:15 Synthesize new control input. Iteration: 1261 of 3001 === main:88
+
+======================================
+          Commercial License
+             KNITRO 7.0.0
+       Ziena Optimization, Inc.
+======================================
+
+algorithm:            1
+bar_initpt:           1
+bar_murule:           6
+maxcrossit:           5
+maxit:                10000
+maxtime_cpu:          45
+maxtime_real:         40
+ms_enable:            1
+ms_maxsolves:         40
+ms_maxtime_cpu:       100
+ms_maxtime_real:      80
+newpoint:             3
+objrange:             1e+06
+outlev:               1
+KNITRO changing bar_penaltyrule from AUTO to 2.
+KNITRO changing bar_penaltycons from AUTO to 1.
+KNITRO changing linsolver from AUTO to 5.
+KNITRO shifted start point to honor bounds (92 variables).
+
+Problem Characteristics
+-----------------------
+Objective goal:  Minimize
+Number of variables:                   480
+    bounded below:                       0
+    bounded above:                       0
+    bounded below and above:           448
+    fixed:                              32
+    free:                                0
+Number of constraints:                 528
+    linear equalities:                 128
+    nonlinear equalities:                0
+    linear inequalities:               400
+    nonlinear inequalities:              0
+    range:                               0
+Number of nonzeros in Jacobian:       3016
+Number of nonzeros in Hessian:        2440
+
+MULTISTART: Best locally optimal point is returned.
+EXIT: Locally optimal solution found.
+
+Final Statistics
+----------------
+Final objective value               =  -5.43783329802027e+02
+Final feasibility error (abs / rel) =   1.02e-11 / 1.37e-14
+Final optimality error  (abs / rel) =   3.07e-06 / 7.41e-07
+# of iterations                     =       2708 
+# of CG iterations                  =      13574 
+# of function evaluations           =       2966
+# of gradient evaluations           =       2732
+# of Hessian evaluations            =       2763
+Total program time (secs)           =      80.54140 (    80.450 CPU time)
+Time spent in evaluations (secs)    =      23.39682
+
+===============================================================================
+
+===== * * * =================================================================== * * *
+TOMLAB - Carnegie Mellon University Ac. department  701036. Valid to 2100-01-01
+=====================================================================================
+Problem: ---  1: Data center level coordinated optimization problem.  f_k    -543.783329802027083133
+                                                             sum(|constr|)      0.000000000042731483
+                                                    f(x_k) + sum(|constr|)   -543.783329801984336882
+                                                                    f(x_0)   -527.983357506896595623
+ ==>  Number of variables violating lower bound   4.  Number of variables violating upper bound   4
+
+Solver: KNITRO.  EXIT=0.  INFORM=0.
+Interior/Direct NLP KNITRO
+Locally optimal solution found
+
+FuncEv 2967 GradEv 2732 HessEv 2764 Iter 2708 MinorIter 2768
+CPU time: 80.500000 sec. Elapsed time: 80.629675 sec. 
+-- Solving time: 80.6361
+-- Computation time: 80.6297s
+15:46:40 Update simulation: 2.8995 === main:86
+15:46:40 Synthesize new control input. Iteration: 1441 of 3001 === main:88
+
+======================================
+          Commercial License
+             KNITRO 7.0.0
+       Ziena Optimization, Inc.
+======================================
+
+algorithm:            1
+bar_initpt:           1
+bar_murule:           6
+maxcrossit:           5
+maxit:                10000
+maxtime_cpu:          45
+maxtime_real:         40
+ms_enable:            1
+ms_maxsolves:         40
+ms_maxtime_cpu:       100
+ms_maxtime_real:      80
+newpoint:             3
+objrange:             1e+06
+outlev:               1
+KNITRO changing bar_penaltyrule from AUTO to 2.
+KNITRO changing bar_penaltycons from AUTO to 1.
+KNITRO changing linsolver from AUTO to 5.
+KNITRO shifted start point to honor bounds (72 variables).
+
+Problem Characteristics
+-----------------------
+Objective goal:  Minimize
+Number of variables:                   480
+    bounded below:                       0
+    bounded above:                       0
+    bounded below and above:           448
+    fixed:                              32
+    free:                                0
+Number of constraints:                 528
+    linear equalities:                 128
+    nonlinear equalities:                0
+    linear inequalities:               400
+    nonlinear inequalities:              0
+    range:                               0
+Number of nonzeros in Jacobian:       3016
+Number of nonzeros in Hessian:        2440
+
+MULTISTART: Best locally optimal point is returned.
+EXIT: Locally optimal solution found.
+
+Final Statistics
+----------------
+Final objective value               =  -5.43835180670221e+02
+Final feasibility error (abs / rel) =   9.12e-12 / 1.05e-14
+Final optimality error  (abs / rel) =   1.37e-07 / 3.28e-08
+# of iterations                     =       4580 
+# of CG iterations                  =      20798 
+# of function evaluations           =       5102
+# of gradient evaluations           =       4620
+# of Hessian evaluations            =       4705
+Total program time (secs)           =      70.23573 (    70.150 CPU time)
+Time spent in evaluations (secs)    =      39.58960
+
+===============================================================================
+
+===== * * * =================================================================== * * *
+TOMLAB - Carnegie Mellon University Ac. department  701036. Valid to 2100-01-01
+=====================================================================================
+Problem: ---  1: Data center level coordinated optimization problem.  f_k    -543.835180670221348009
+                                                             sum(|constr|)      0.000000000030416460
+                                                    f(x_k) + sum(|constr|)   -543.835180670190879937
+                                                                    f(x_0)   -527.702741442094861668
+ ==>  Number of variables violating lower bound   5.  Number of variables violating upper bound   0
+
+Solver: KNITRO.  EXIT=0.  INFORM=0.
+Interior/Direct NLP KNITRO
+Locally optimal solution found
+
+FuncEv 5103 GradEv 4620 HessEv 4706 Iter 4580 MinorIter 4714
+CPU time: 70.220000 sec. Elapsed time: 70.326815 sec. 
+-- Solving time: 70.3321
+-- Computation time: 70.3268s
+15:47:54 Update simulation: 2.7456 === main:86
+15:47:54 Synthesize new control input. Iteration: 1621 of 3001 === main:88
+
+======================================
+          Commercial License
+             KNITRO 7.0.0
+       Ziena Optimization, Inc.
+======================================
+
+algorithm:            1
+bar_initpt:           1
+bar_murule:           6
+maxcrossit:           5
+maxit:                10000
+maxtime_cpu:          45
+maxtime_real:         40
+ms_enable:            1
+ms_maxsolves:         40
+ms_maxtime_cpu:       100
+ms_maxtime_real:      80
+newpoint:             3
+objrange:             1e+06
+outlev:               1
+KNITRO changing bar_penaltyrule from AUTO to 2.
+KNITRO changing bar_penaltycons from AUTO to 1.
+KNITRO changing linsolver from AUTO to 5.
+KNITRO shifted start point to honor bounds (72 variables).
+
+Problem Characteristics
+-----------------------
+Objective goal:  Minimize
+Number of variables:                   480
+    bounded below:                       0
+    bounded above:                       0
+    bounded below and above:           448
+    fixed:                              32
+    free:                                0
+Number of constraints:                 528
+    linear equalities:                 128
+    nonlinear equalities:                0
+    linear inequalities:               400
+    nonlinear inequalities:              0
+    range:                               0
+Number of nonzeros in Jacobian:       3016
+Number of nonzeros in Hessian:        2440
+
+MULTISTART: Best locally optimal point is returned.
+EXIT: Locally optimal solution found.
+
+Final Statistics
+----------------
+Final objective value               =  -5.43817683775603e+02
+Final feasibility error (abs / rel) =   1.06e-10 / 1.24e-13
+Final optimality error  (abs / rel) =   2.34e-06 / 5.80e-07
+# of iterations                     =       4512 
+# of CG iterations                  =      22768 
+# of function evaluations           =       5092
+# of gradient evaluations           =       4552
+# of Hessian evaluations            =       4641
+Total program time (secs)           =      69.23679 (    69.150 CPU time)
+Time spent in evaluations (secs)    =      38.88324
+
+===============================================================================
+
+===== * * * =================================================================== * * *
+TOMLAB - Carnegie Mellon University Ac. department  701036. Valid to 2100-01-01
+=====================================================================================
+Problem: ---  1: Data center level coordinated optimization problem.  f_k    -543.817683775602631613
+                                                             sum(|constr|)      0.000000000426928344
+                                                    f(x_k) + sum(|constr|)   -543.817683775175737537
+                                                                    f(x_0)   -527.883007983793845597
+ ==>  Number of variables violating lower bound  12.  Number of variables violating upper bound   2
+
+Solver: KNITRO.  EXIT=0.  INFORM=0.
+Interior/Direct NLP KNITRO
+Locally optimal solution found
+
+FuncEv 5093 GradEv 4552 HessEv 4642 Iter 4512 MinorIter 4653
+CPU time: 69.210000 sec. Elapsed time: 69.317948 sec. 
+-- Solving time: 69.3231
+-- Computation time: 69.3179s
+15:49:08 Update simulation: 2.7789 === main:86
+15:49:08 Synthesize new control input. Iteration: 1801 of 3001 === main:88
+
+======================================
+          Commercial License
+             KNITRO 7.0.0
+       Ziena Optimization, Inc.
+======================================
+
+algorithm:            1
+bar_initpt:           1
+bar_murule:           6
+maxcrossit:           5
+maxit:                10000
+maxtime_cpu:          45
+maxtime_real:         40
+ms_enable:            1
+ms_maxsolves:         40
+ms_maxtime_cpu:       100
+ms_maxtime_real:      80
+newpoint:             3
+objrange:             1e+06
+outlev:               1
+KNITRO changing bar_penaltyrule from AUTO to 2.
+KNITRO changing bar_penaltycons from AUTO to 1.
+KNITRO changing linsolver from AUTO to 5.
+KNITRO shifted start point to honor bounds (72 variables).
+
+Problem Characteristics
+-----------------------
+Objective goal:  Minimize
+Number of variables:                   480
+    bounded below:                       0
+    bounded above:                       0
+    bounded below and above:           448
+    fixed:                              32
+    free:                                0
+Number of constraints:                 528
+    linear equalities:                 128
+    nonlinear equalities:                0
+    linear inequalities:               400
+    nonlinear inequalities:              0
+    range:                               0
+Number of nonzeros in Jacobian:       3016
+Number of nonzeros in Hessian:        2440
+
+MULTISTART: Best locally optimal point is returned.
+EXIT: Locally optimal solution found.
+
+Final Statistics
+----------------
+Final objective value               =  -5.43810668536653e+02
+Final feasibility error (abs / rel) =   1.94e-11 / 2.31e-14
+Final optimality error  (abs / rel) =   2.01e-06 / 5.02e-07
+# of iterations                     =       4453 
+# of CG iterations                  =      20601 
+# of function evaluations           =       5087
+# of gradient evaluations           =       4493
+# of Hessian evaluations            =       4672
+Total program time (secs)           =      67.90519 (    67.820 CPU time)
+Time spent in evaluations (secs)    =      38.19494
+
+===============================================================================
+
+===== * * * =================================================================== * * *
+TOMLAB - Carnegie Mellon University Ac. department  701036. Valid to 2100-01-01
+=====================================================================================
+Problem: ---  1: Data center level coordinated optimization problem.  f_k    -543.810668536652542571
+                                                             sum(|constr|)      0.000000000089645020
+                                                    f(x_k) + sum(|constr|)   -543.810668536562843656
+                                                                    f(x_0)   -527.659898181258768091
+ ==>  Number of variables violating lower bound   5.  Number of variables violating upper bound   4
+
+Solver: KNITRO.  EXIT=0.  INFORM=0.
+Interior/Direct NLP KNITRO
+Locally optimal solution found
+
+FuncEv 5088 GradEv 4493 HessEv 4673 Iter 4453 MinorIter 4682
+CPU time: 67.880000 sec. Elapsed time: 67.988594 sec. 
+-- Solving time: 67.9943
+-- Computation time: 67.9886s
+15:50:20 Update simulation: 2.9584 === main:86
+15:50:20 Synthesize new control input. Iteration: 1981 of 3001 === main:88
+
+======================================
+          Commercial License
+             KNITRO 7.0.0
+       Ziena Optimization, Inc.
+======================================
+
+algorithm:            1
+bar_initpt:           1
+bar_murule:           6
+maxcrossit:           5
+maxit:                10000
+maxtime_cpu:          45
+maxtime_real:         40
+ms_enable:            1
+ms_maxsolves:         40
+ms_maxtime_cpu:       100
+ms_maxtime_real:      80
+newpoint:             3
+objrange:             1e+06
+outlev:               1
+KNITRO changing bar_penaltyrule from AUTO to 2.
+KNITRO changing bar_penaltycons from AUTO to 1.
+KNITRO changing linsolver from AUTO to 5.
+KNITRO shifted start point to honor bounds (72 variables).
+
+Problem Characteristics
+-----------------------
+Objective goal:  Minimize
+Number of variables:                   480
+    bounded below:                       0
+    bounded above:                       0
+    bounded below and above:           448
+    fixed:                              32
+    free:                                0
+Number of constraints:                 528
+    linear equalities:                 128
+    nonlinear equalities:                0
+    linear inequalities:               400
+    nonlinear inequalities:              0
+    range:                               0
+Number of nonzeros in Jacobian:       3016
+Number of nonzeros in Hessian:        2440
+
+MULTISTART: Best locally optimal point is returned.
+EXIT: Locally optimal solution found.
+
+Final Statistics
+----------------
+Final objective value               =  -5.43856322390821e+02
+Final feasibility error (abs / rel) =   5.98e-12 / 7.00e-15
+Final optimality error  (abs / rel) =   4.64e-08 / 1.15e-08
+# of iterations                     =       4497 
+# of CG iterations                  =      20961 
+# of function evaluations           =       4986
+# of gradient evaluations           =       4536
+# of Hessian evaluations            =       4667
+Total program time (secs)           =      67.51240 (    67.410 CPU time)
+Time spent in evaluations (secs)    =      37.91373
+
+===============================================================================
+
+===== * * * =================================================================== * * *
+TOMLAB - Carnegie Mellon University Ac. department  701036. Valid to 2100-01-01
+=====================================================================================
+Problem: ---  1: Data center level coordinated optimization problem.  f_k    -543.856322390820764667
+                                                             sum(|constr|)      0.000000000022251800
+                                                    f(x_k) + sum(|constr|)   -543.856322390798482047
+                                                                    f(x_0)   -527.652115794992027986
+ ==>  Number of variables violating lower bound   5.  Number of variables violating upper bound   0
+
+Solver: KNITRO.  EXIT=0.  INFORM=0.
+Interior/Direct NLP KNITRO
+Locally optimal solution found
+
+FuncEv 4987 GradEv 4536 HessEv 4668 Iter 4497 MinorIter 4672
+CPU time: 67.490000 sec. Elapsed time: 67.629346 sec. 
+-- Solving time: 67.6347
+-- Computation time: 67.6293s
+15:51:32 Update simulation: 2.8065 === main:86
+15:51:32 Synthesize new control input. Iteration: 2161 of 3001 === main:88
+
+======================================
+          Commercial License
+             KNITRO 7.0.0
+       Ziena Optimization, Inc.
+======================================
+
+algorithm:            1
+bar_initpt:           1
+bar_murule:           6
+maxcrossit:           5
+maxit:                10000
+maxtime_cpu:          45
+maxtime_real:         40
+ms_enable:            1
+ms_maxsolves:         40
+ms_maxtime_cpu:       100
+ms_maxtime_real:      80
+newpoint:             3
+objrange:             1e+06
+outlev:               1
+KNITRO changing bar_penaltyrule from AUTO to 2.
+KNITRO changing bar_penaltycons from AUTO to 1.
+KNITRO changing linsolver from AUTO to 5.
+KNITRO shifted start point to honor bounds (86 variables).
+
+Problem Characteristics
+-----------------------
+Objective goal:  Minimize
+Number of variables:                   480
+    bounded below:                       0
+    bounded above:                       0
+    bounded below and above:           448
+    fixed:                              32
+    free:                                0
+Number of constraints:                 528
+    linear equalities:                 128
+    nonlinear equalities:                0
+    linear inequalities:               400
+    nonlinear inequalities:              0
+    range:                               0
+Number of nonzeros in Jacobian:       3016
+Number of nonzeros in Hessian:        2440
+
+MULTISTART: Best locally optimal point is returned.
+EXIT: Locally optimal solution found.
+
+Final Statistics
+----------------
+Final objective value               =  -5.43852055706459e+02
+Final feasibility error (abs / rel) =   2.28e-12 / 2.67e-15
+Final optimality error  (abs / rel) =   1.42e-08 / 3.52e-09
+# of iterations                     =       4621 
+# of CG iterations                  =      22272 
+# of function evaluations           =       5201
+# of gradient evaluations           =       4660
+# of Hessian evaluations            =       4760
+Total program time (secs)           =      71.00977 (    71.040 CPU time)
+Time spent in evaluations (secs)    =      39.84504
+
+===============================================================================
+
+===== * * * =================================================================== * * *
+TOMLAB - Carnegie Mellon University Ac. department  701036. Valid to 2100-01-01
+=====================================================================================
+Problem: ---  1: Data center level coordinated optimization problem.  f_k    -543.852055706459168505
+                                                             sum(|constr|)      0.000000000008979632
+                                                    f(x_k) + sum(|constr|)   -543.852055706450187245
+                                                                    f(x_0)   -528.076543646645859553
+ ==>  Number of variables violating lower bound   5.  Number of variables violating upper bound   0
+
+Solver: KNITRO.  EXIT=0.  INFORM=0.
+Interior/Direct NLP KNITRO
+Locally optimal solution found
+
+FuncEv 5202 GradEv 4660 HessEv 4761 Iter 4621 MinorIter 4775
+CPU time: 71.120000 sec. Elapsed time: 71.099881 sec. 
+-- Solving time: 71.1052
+-- Computation time: 71.0999s
+15:52:48 Update simulation: 2.9873 === main:86
+15:52:48 Synthesize new control input. Iteration: 2341 of 3001 === main:88
+
+======================================
+          Commercial License
+             KNITRO 7.0.0
+       Ziena Optimization, Inc.
+======================================
+
+algorithm:            1
+bar_initpt:           1
+bar_murule:           6
+maxcrossit:           5
+maxit:                10000
+maxtime_cpu:          45
+maxtime_real:         40
+ms_enable:            1
+ms_maxsolves:         40
+ms_maxtime_cpu:       100
+ms_maxtime_real:      80
+newpoint:             3
+objrange:             1e+06
+outlev:               1
+KNITRO changing bar_penaltyrule from AUTO to 2.
+KNITRO changing bar_penaltycons from AUTO to 1.
+KNITRO changing linsolver from AUTO to 5.
+KNITRO shifted start point to honor bounds (88 variables).
+
+Problem Characteristics
+-----------------------
+Objective goal:  Minimize
+Number of variables:                   480
+    bounded below:                       0
+    bounded above:                       0
+    bounded below and above:           448
+    fixed:                              32
+    free:                                0
+Number of constraints:                 528
+    linear equalities:                 128
+    nonlinear equalities:                0
+    linear inequalities:               400
+    nonlinear inequalities:              0
+    range:                               0
+Number of nonzeros in Jacobian:       3016
+Number of nonzeros in Hessian:        2440
+
+MULTISTART: Best locally optimal point is returned.
+EXIT: Locally optimal solution found.
+
+Final Statistics
+----------------
+Final objective value               =  -5.43815286078740e+02
+Final feasibility error (abs / rel) =   7.17e-11 / 1.04e-12
+Final optimality error  (abs / rel) =   4.30e-06 / 1.28e-07
+# of iterations                     =       4595 
+# of CG iterations                  =      21686 
+# of function evaluations           =       5263
+# of gradient evaluations           =       4634
+# of Hessian evaluations            =       4751
+Total program time (secs)           =      72.01640 (    71.930 CPU time)
+Time spent in evaluations (secs)    =      40.54313
+
+===============================================================================
+
+===== * * * =================================================================== * * *
+TOMLAB - Carnegie Mellon University Ac. department  701036. Valid to 2100-01-01
+=====================================================================================
+Problem: ---  1: Data center level coordinated optimization problem.  f_k    -543.815286078739973163
+                                                             sum(|constr|)      0.000000000253152604
+                                                    f(x_k) + sum(|constr|)   -543.815286078486792576
+                                                                    f(x_0)   -528.459393236949608763
+ ==>  Number of variables violating lower bound   7.  Number of variables violating upper bound   6
+
+Solver: KNITRO.  EXIT=0.  INFORM=0.
+Interior/Direct NLP KNITRO
+Locally optimal solution found
+
+FuncEv 5264 GradEv 4634 HessEv 4752 Iter 4595 MinorIter 4762
+CPU time: 71.990000 sec. Elapsed time: 72.099773 sec. 
+-- Solving time: 72.1052
+-- Computation time: 72.0998s
+15:54:05 Update simulation: 3.326 === main:86
+15:54:05 Synthesize new control input. Iteration: 2521 of 3001 === main:88
+
+======================================
+          Commercial License
+             KNITRO 7.0.0
+       Ziena Optimization, Inc.
+======================================
+
+algorithm:            1
+bar_initpt:           1
+bar_murule:           6
+maxcrossit:           5
+maxit:                10000
+maxtime_cpu:          45
+maxtime_real:         40
+ms_enable:            1
+ms_maxsolves:         40
+ms_maxtime_cpu:       100
+ms_maxtime_real:      80
+newpoint:             3
+objrange:             1e+06
+outlev:               1
+KNITRO changing bar_penaltyrule from AUTO to 2.
+KNITRO changing bar_penaltycons from AUTO to 1.
+KNITRO changing linsolver from AUTO to 5.
+KNITRO shifted start point to honor bounds (72 variables).
+
+Problem Characteristics
+-----------------------
+Objective goal:  Minimize
+Number of variables:                   480
+    bounded below:                       0
+    bounded above:                       0
+    bounded below and above:           448
+    fixed:                              32
+    free:                                0
+Number of constraints:                 528
+    linear equalities:                 128
+    nonlinear equalities:                0
+    linear inequalities:               400
+    nonlinear inequalities:              0
+    range:                               0
+Number of nonzeros in Jacobian:       3016
+Number of nonzeros in Hessian:        2440
+
+MULTISTART: Best locally optimal point is returned.
+EXIT: Locally optimal solution found.
+
+Final Statistics
+----------------
+Final objective value               =  -5.43834040933571e+02
+Final feasibility error (abs / rel) =   5.79e-12 / 7.43e-15
+Final optimality error  (abs / rel) =   1.68e-08 / 4.13e-09
+# of iterations                     =       4619 
+# of CG iterations                  =      20689 
+# of function evaluations           =       5102
+# of gradient evaluations           =       4657
+# of Hessian evaluations            =       4697
+Total program time (secs)           =      74.40879 (    74.230 CPU time)
+Time spent in evaluations (secs)    =      43.02540
+
+===============================================================================
+
+===== * * * =================================================================== * * *
+TOMLAB - Carnegie Mellon University Ac. department  701036. Valid to 2100-01-01
+=====================================================================================
+Problem: ---  1: Data center level coordinated optimization problem.  f_k    -543.834040933571372989
+                                                             sum(|constr|)      0.000000000020338877
+                                                    f(x_k) + sum(|constr|)   -543.834040933551023045
+                                                                    f(x_0)   -527.679016339762711141
+ ==>  Number of variables violating lower bound   3.  Number of variables violating upper bound   0
+
+Solver: KNITRO.  EXIT=0.  INFORM=0.
+Interior/Direct NLP KNITRO
+Locally optimal solution found
+
+FuncEv 5103 GradEv 4657 HessEv 4698 Iter 4619 MinorIter 4704
+CPU time: 74.300000 sec. Elapsed time: 74.563042 sec. 
+-- Solving time: 74.5683
+-- Computation time: 74.563s
+15:55:24 Update simulation: 3.1447 === main:86
+15:55:24 Synthesize new control input. Iteration: 2701 of 3001 === main:88
+
+======================================
+          Commercial License
+             KNITRO 7.0.0
+       Ziena Optimization, Inc.
+======================================
+
+algorithm:            1
+bar_initpt:           1
+bar_murule:           6
+maxcrossit:           5
+maxit:                10000
+maxtime_cpu:          45
+maxtime_real:         40
+ms_enable:            1
+ms_maxsolves:         40
+ms_maxtime_cpu:       100
+ms_maxtime_real:      80
+newpoint:             3
+objrange:             1e+06
+outlev:               1
+KNITRO changing bar_penaltyrule from AUTO to 2.
+KNITRO changing bar_penaltycons from AUTO to 1.
+KNITRO changing linsolver from AUTO to 5.
+KNITRO shifted start point to honor bounds (90 variables).
+
+Problem Characteristics
+-----------------------
+Objective goal:  Minimize
+Number of variables:                   480
+    bounded below:                       0
+    bounded above:                       0
+    bounded below and above:           448
+    fixed:                              32
+    free:                                0
+Number of constraints:                 528
+    linear equalities:                 128
+    nonlinear equalities:                0
+    linear inequalities:               400
+    nonlinear inequalities:              0
+    range:                               0
+Number of nonzeros in Jacobian:       3016
+Number of nonzeros in Hessian:        2440
+
+MULTISTART: Best locally optimal point is returned.
+EXIT: Locally optimal solution found.
+
+Final Statistics
+----------------
+Final objective value               =  -5.43819129653128e+02
+Final feasibility error (abs / rel) =   1.28e-10 / 1.71e-13
+Final optimality error  (abs / rel) =   2.42e-06 / 5.85e-07
+# of iterations                     =       4417 
+# of CG iterations                  =      20200 
+# of function evaluations           =       4936
+# of gradient evaluations           =       4456
+# of Hessian evaluations            =       4541
+Total program time (secs)           =      66.71532 (    66.760 CPU time)
+Time spent in evaluations (secs)    =      37.20853
+
+===============================================================================
+
+===== * * * =================================================================== * * *
+TOMLAB - Carnegie Mellon University Ac. department  701036. Valid to 2100-01-01
+=====================================================================================
+Problem: ---  1: Data center level coordinated optimization problem.  f_k    -543.819129653128470636
+                                                             sum(|constr|)      0.000000000567936876
+                                                    f(x_k) + sum(|constr|)   -543.819129652560491195
+                                                                    f(x_0)   -527.836215381015108505
+ ==>  Number of variables violating lower bound  12.  Number of variables violating upper bound   2
+
+Solver: KNITRO.  EXIT=0.  INFORM=0.
+Interior/Direct NLP KNITRO
+Locally optimal solution found
+
+FuncEv 4937 GradEv 4456 HessEv 4542 Iter 4417 MinorIter 4553
+CPU time: 66.850000 sec. Elapsed time: 66.870956 sec. 
+-- Solving time: 66.8768
+-- Computation time: 66.871s
+15:56:36 Update simulation: 2.9996 === main:86
+15:56:36 Synthesize new control input. Iteration: 2881 of 3001 === main:88
+
+======================================
+          Commercial License
+             KNITRO 7.0.0
+       Ziena Optimization, Inc.
+======================================
+
+algorithm:            1
+bar_initpt:           1
+bar_murule:           6
+maxcrossit:           5
+maxit:                10000
+maxtime_cpu:          45
+maxtime_real:         40
+ms_enable:            1
+ms_maxsolves:         40
+ms_maxtime_cpu:       100
+ms_maxtime_real:      80
+newpoint:             3
+objrange:             1e+06
+outlev:               1
+KNITRO changing bar_penaltyrule from AUTO to 2.
+KNITRO changing bar_penaltycons from AUTO to 1.
+KNITRO changing linsolver from AUTO to 5.
+KNITRO shifted start point to honor bounds (72 variables).
+
+Problem Characteristics
+-----------------------
+Objective goal:  Minimize
+Number of variables:                   480
+    bounded below:                       0
+    bounded above:                       0
+    bounded below and above:           448
+    fixed:                              32
+    free:                                0
+Number of constraints:                 528
+    linear equalities:                 128
+    nonlinear equalities:                0
+    linear inequalities:               400
+    nonlinear inequalities:              0
+    range:                               0
+Number of nonzeros in Jacobian:       3016
+Number of nonzeros in Hessian:        2440
+
+MULTISTART: Best locally optimal point is returned.
+EXIT: Locally optimal solution found.
+
+Final Statistics
+----------------
+Final objective value               =  -5.43921826407471e+02
+Final feasibility error (abs / rel) =   4.93e-12 / 6.12e-15
+Final optimality error  (abs / rel) =   1.91e-08 / 4.62e-09
+# of iterations                     =       4490 
+# of CG iterations                  =      21117 
+# of function evaluations           =       5091
+# of gradient evaluations           =       4530
+# of Hessian evaluations            =       4674
+Total program time (secs)           =      66.22263 (    66.140 CPU time)
+Time spent in evaluations (secs)    =      36.76676
+
+===============================================================================
+
+===== * * * =================================================================== * * *
+TOMLAB - Carnegie Mellon University Ac. department  701036. Valid to 2100-01-01
+=====================================================================================
+Problem: ---  1: Data center level coordinated optimization problem.  f_k    -543.921826407471144194
+                                                             sum(|constr|)      0.000000000024434046
+                                                    f(x_k) + sum(|constr|)   -543.921826407446701523
+                                                                    f(x_0)   -527.806411462834148551
+ ==>  Number of variables violating lower bound   5.  Number of variables violating upper bound   0
+
+Solver: KNITRO.  EXIT=0.  INFORM=0.
+Interior/Direct NLP KNITRO
+Locally optimal solution found
+
+FuncEv 5092 GradEv 4530 HessEv 4675 Iter 4490 MinorIter 4684
+CPU time: 66.270000 sec. Elapsed time: 66.427933 sec. 
+-- Solving time: 66.4335
+-- Computation time: 66.4279s
+15:57:46 Time to complete the simulation: 21 min  5 s === main:117
+15:57:46 Simulation completed. === main:127
+15:57:46 Saving figures... === main:129
+15:58:07 Figure saved. Saving simulation data... === main:131
